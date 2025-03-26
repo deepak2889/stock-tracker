@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Tracker</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Stock Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="#search">Search Stocks</a></li>
+                <li><a href="#portfolio">My Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="search">
+            <h2>Search for Stocks</h2>
+            <input type="text" id="stock-search" placeholder="Enter stock symbol or name">
+            <button id="search-button">Search</button>
+            <div id="search-results"></div>
+        </section>
+
+        <section id="portfolio">
+            <h2>My Portfolio</h2>
+            <div id="portfolio-data"></div>
+            <button id="update-portfolio">Update Portfolio</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Stock Tracker. All rights reserved.</p>
+    </footer>
+
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
